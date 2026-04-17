@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="155.0" prefWidth="180.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.biblio_teca.MenuHello">
+   <children>
+      <Pane layoutX="-4.0" layoutY="-7.0" prefHeight="247.0" prefWidth="314.0">
+         <children>
+            <Label layoutX="81.0" layoutY="21.0" text="Menú">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font></Label>
+            <Button layoutX="40.0" layoutY="65.0" mnemonicParsing="false" onAction="#OnAgregar" text="Agregar libros">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font></Button>
+            <Button layoutX="52.0" layoutY="111.0" mnemonicParsing="false" onAction="#OnBuscar" text="Buscar libros">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font></Button>
+            <Button layoutX="67.0" layoutY="156.0" mnemonicParsing="false" onAction="#OnBiblioteca" text="Biblioteca">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font></Button>
+            <Button layoutX="94.0" layoutY="201.0" mnemonicParsing="false" onAction="#OnExit" text="Salir">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font></Button>
+            <ImageView fitHeight="117.0" fitWidth="134.0" layoutX="163.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Style/libro.jpg" />
+               </image></ImageView>
+            <Label layoutX="161.0" layoutY="26.0" text="Seleccione una opción">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font></Label>
+         </children></Pane>
+   </children>
+</AnchorPane>
