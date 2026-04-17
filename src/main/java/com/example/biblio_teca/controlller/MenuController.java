@@ -25,15 +25,6 @@ public class MenuController implements Initializable {
         cambiarVentana("agregar-view.fxml", "Agregar Libros");
     }
 
-    @FXML
-    private void OnBuscar() {
-        cambiarVentana("buscar-view.fxml", "Buscar Libros");
-    }
-
-    @FXML
-    private void OnBiblioteca() {
-        cambiarVentana("historial-view.fxml", "Biblioteca");
-    }
 
     @FXML
     private void OnExit() {
