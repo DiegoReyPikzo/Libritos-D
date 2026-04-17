@@ -21,11 +21,11 @@
                <font>
                   <Font name="Comic Sans MS" size="12.0" />
                </font></Label>
-            <TextField fx:id="usuarioText" layoutX="74.0" layoutY="91.0" promptText="Usuario...">
+            <TextField fx:id="user" layoutX="74.0" layoutY="91.0" promptText="Usuario...">
                <font>
                   <Font name="Comic Sans MS" size="12.0" />
                </font></TextField>
-            <TextField fx:id="contraText" layoutX="74.0" layoutY="132.0" promptText="Contraseña...">
+            <TextField fx:id="contra" layoutX="74.0" layoutY="132.0" promptText="Contraseña...">
                <font>
                   <Font name="Comic Sans MS" size="12.0" />
                </font></TextField>

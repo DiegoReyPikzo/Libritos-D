@@ -43,5 +43,3 @@ public Libro(int id, String title, String autor){
         return "Número: " + id + " | Título: " + title + " | Autor: " + autor;
     }
 }
-
-}
