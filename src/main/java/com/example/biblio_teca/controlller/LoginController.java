@@ -4,7 +4,6 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import  javafx.scene.Scene;
-import javafx.scene.control.PasswordField;
 import  javafx.scene.control.TextField;              //importo todas las dependencias
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
@@ -29,7 +28,7 @@ public class LoginController {
 
         if (user.equals("biblio") && contra.equals("teca")) {
             try {
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("opciones-view.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("menu-view.fxml"));
                 Parent root = loader.load();
                 Stage stage = new Stage();
                 stage.setTitle("Menu de libros");
