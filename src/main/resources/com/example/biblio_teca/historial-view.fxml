@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.biblio_teca.controlller.LibroController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="223.0" prefWidth="323.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.biblio_teca.HistorialHello">
+   <children>
+      <Pane layoutX="4.0" layoutY="3.0" prefHeight="247.0" prefWidth="314.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Biblioteca">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="228.0" layoutY="177.0" mnemonicParsing="false" text="Ver libros">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font></Button>
+            <Label fx:id="historialbiblioteca" layoutX="42.0" layoutY="56.0">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font></Label>
+            <Button layoutX="188.0" layoutY="207.0" mnemonicParsing="false" text="Regresar al menú">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font></Button>
+         </children></Pane>
+   </children>
 </AnchorPane>

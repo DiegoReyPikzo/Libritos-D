@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
 <AnchorPane prefHeight="270.0" prefWidth="352.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.biblio_teca.AgregarHello">
    <children>
-      <Pane layoutX="14.0" layoutY="14.0" prefHeight="247.0" prefWidth="314.0" />
+      <Pane layoutX="14.0" layoutY="14.0" prefHeight="247.0" prefWidth="314.0">
+         <children>
+            <Label layoutX="13.0" layoutY="14.0" text="Agrega libros a tu biblioteca">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="idLibro" layoutX="15.0" layoutY="70.0" promptText="Número de libro...">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font></TextField>
+            <TextField fx:id="tituloLibro" layoutX="15.0" layoutY="111.0" promptText="Título del libro...">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font></TextField>
+            <TextField fx:id="autorLibro" layoutX="15.0" layoutY="150.0" promptText="Autor del libro...">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font></TextField>
+            <TextField fx:id="generoLibro" layoutX="16.0" layoutY="192.0" promptText="Género...">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font></TextField>
+            <Button layoutX="200.0" layoutY="70.0" mnemonicParsing="false" onAction="#onAgregarLibro" text="Agregar libro ">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font></Button>
+            <Button layoutX="211.0" layoutY="111.0" mnemonicParsing="false" onAction="#onBiblioteca" text="Biblioteca">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font></Button>
+            <Button layoutX="195.0" layoutY="192.0" mnemonicParsing="false" onAction="#onRegresar" text="Regresar al menú">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font></Button>
+         </children></Pane>
    </children>
 </AnchorPane>
