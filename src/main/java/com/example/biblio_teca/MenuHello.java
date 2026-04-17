@@ -1,4 +1,4 @@
 package com.example.biblio_teca;
 
-public class InicioHello {
+public class MenuHello {
 }
