@@ -1,4 +1,4 @@
-package com.example.biblio_teca;
+package com.example.biblio_teca.controlller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
